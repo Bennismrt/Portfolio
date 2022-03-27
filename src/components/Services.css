@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.services {
+    margin: 0 32px;
+}
+.services p {
+    margin-right: 160px;
+    font-family: 'Poppins', sans-serif;
+}
+.services .image {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.services .image .image1a{
+    width: 40%;
+    height: 30vh;
+    background-size: cover;
+    background-image: url(./assets/service2.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+.services .image .image1a h2 {
+    color: white;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.services .image .image1a p {
+    color: white;
+    margin-left: 20px;
+}
+.services .image .image2a{
+    width: 40%;
+    height: 30vh;
+    background-size: cover;
+    background-image: url(./assets/service1.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+.services .image .image2a h2 {
+    color: white;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.services .image .image2a p {
+    color: white;
+    margin-left: 20px;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.projects {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+}
+.projects p{
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects .subProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.projects .subProject .project1 {
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+.projects .subProject .project1 {
+    width: 50%;
+}
+.project1 img {
+    width: 320px;
+    margin: auto;
+}
+.project1 p {
+    text-align: right;
+    float: right;
+    padding-right: 12px;
+}
+.project1 h1 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+.projects .subProject .project2 {
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+.projects .subProject .project2 {
+    width: 50%;
+}
+.project2 img {
+    width: 320px;
+    margin: auto;
+}
+.project2 p {
+    text-align: right;
+    float: right;
+    padding-right: 12px;
+}
+.project2 h1 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+
+
