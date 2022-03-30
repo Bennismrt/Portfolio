@@ -6,6 +6,15 @@
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.hambu {
+    color: orangered;
+    display: none;
+    margin-right: 12px;
 }
 
 .navUl{
@@ -25,7 +34,7 @@
     color: black;
 }
 .navUl li .navText:hover {
-    font-weight: 600;
+    color: orangered;
 }
 
 .navTitle {
@@ -33,4 +42,41 @@
     font-size: 32px;
     margin-left: 32px;
     color: orangered;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+        .navUl {
+            display: block;
+            /* display: none; */
+            float: left;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: 10vh 0px;
+            background-color: antiquewhite;
+            width: 150px;
+            height: 100vh;
+            padding-top: 20px;
+            transform: translate(-100%);
+            transition: 1s ease;
+        }
+        .navUlActive {
+            transform: translate(0);
+        }
+        .navUl li .navText {
+            /* color: white; */
+            padding-top: 4px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+        }
+        .hambu {
+            display: block;
+            width: 32px;
+            cursor: pointer;
+        }
+        
 }

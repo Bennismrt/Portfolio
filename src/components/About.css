@@ -32,4 +32,34 @@
     width: 85%;
     text-align: justify;
     margin-bottom: 18px;
+    font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .about1 {
+        display: none;
+    }
+    .about2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .about2 p {
+        width: 70%;
+        /* background-color: orange; */
+        line-height: 35px;
+    }
 }

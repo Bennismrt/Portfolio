@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 .subHome {
     background-color: rgba(0, 0, 0, 0.9);
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
+    padding-top: 10vh;
 }
 
-.title {
+.titlee {
     width: 50%;
     color: white;
     display: flex;
@@ -15,14 +16,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.title .title1 {
+.titlee .title1 {
     margin-left: 32px;
     font-size: 38px;
 }
-.title .title2 {
+.titlee .title2 {
     margin-left: 32px;
 }
-.title .title3 {
+.titlee .title3 {
     margin-left: 32px;
     font-size: 20px;
     margin-top: 20px;
@@ -42,4 +43,68 @@
     height: 450px;
     /* object-fit: cover; */
     
+}
+@media screen and (max-width: 768px) {
+    .subHome {
+        max-width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        height: 50vh;
+        padding-top: 10vh;
+    }
+    .titlee {
+        width: 50%;
+    }
+    .titlee .title1 {
+        margin-left: 32px;
+        font-size: 28px;
+    }
+    .titlee .title2 {
+        margin-left: 32px;
+        font-size: 24px;
+    }
+    .titlee .title3 {
+        margin-left: 32px;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+
+    .subHome .image {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subHome .image .image1 {
+        width: 250px;
+        height: 250px;
+        /* object-fit: cover; */
+        
+    }
+    
+    
+}
+@media screen and (max-width: 520px) {
+    .titlee .title1 {
+        margin-left: 32px;
+        font-size: 22px;
+        color: orange;
+    }
+    .titlee .title2 {
+        margin-left: 32px;
+        font-size: 18px;
+    }
+    .titlee .title3 {
+        margin-left: 32px;
+        font-size: 12px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    .subHome .image .image1 {
+        width: 250px;
+        height: 250px;
+
+        
+    }
 }

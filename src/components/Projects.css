@@ -22,22 +22,14 @@
 
 .projects .subProject .project1 {
     width: 50%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
-    height: 30vh;
-}
-.projects .subProject .project1 {
-    width: 50%;
+
 }
 .project1 img {
     width: 320px;
     margin: auto;
-}
-.project1 p {
-    text-align: right;
-    float: right;
-    padding-right: 12px;
+    margin-bottom: 20px;
 }
 .project1 h1 {
     font-size: 20px;
@@ -47,10 +39,8 @@
 }
 .projects .subProject .project2 {
     width: 50%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
-    height: 30vh;
 }
 .projects .subProject .project2 {
     width: 50%;
@@ -58,12 +48,11 @@
 .project2 img {
     width: 320px;
     margin: auto;
+    height: 146px;
+    object-fit:  fill;
+    margin-bottom: 20px;
 }
-.project2 p {
-    text-align: right;
-    float: right;
-    padding-right: 12px;
-}
+
 .project2 h1 {
     font-size: 20px;
     margin-top: 40px;
@@ -72,4 +61,75 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .projects {
+        max-width: 100%;
+    }
+    .project2 img {
+        width: 120px;
+        margin: auto;
+    }
+    .projects p{
+        font-size: 12px;
+        padding: 0 32px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .subProject {
+        width: 100%;
+    }
+    .subProject .project1{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .project1 img {
+        width: 300px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .subProject .project2{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .project2 img {
+        width: 300px;
+        height: 146px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .project1 h1 {
+        font-size:18px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .project2 h1 {
+        font-size:18px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    .project1 img {
+        width: 200px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .project2 img {
+        width: 200px;
+        height: 98px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
 
+@media screen and (max-width: 320px) {
+    .subProject {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

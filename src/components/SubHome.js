@@ -6,7 +6,7 @@ export function SubHome() {
 
     return (
         <div className='subHome'>
-            <div className='title'>
+            <div className='titlee'>
             <h1 className='title1'>Hi,</h1>
             <h1 className='title2'>I'm Benni Setiady</h1>
             <h1 className='title3'>"A frontend web developer and graphic designer"</h1>
