@@ -47,7 +47,7 @@
 
 .subHome .socialMedia {
     position: absolute;
-    width: 19%;
+    width: 29%;
     height: 80px;
     display: flex;
     right: 20px;
@@ -149,39 +149,14 @@
         font-size: 12px;
     }
     .subHome .socialMedia {
-        width: 38%;
-        height: 50px;
-        right: 1px;
-        bottom: 30px;
-    }
-    .socialMedia .Linked img {
-        width: 20px;
-        height: 20px;
-    }
-    .socialMedia .Linked a {
-        font-size: 12px;
-    }
-
-    .socialMedia .Insta img {
-        width: 20px;
-        height: 20px;
-    }
-    .socialMedia .Insta a {
-        font-size: 12px;
-    }
-    .socialMedia .Github img {
-        width: 20px;
-        height: 20px;
-    }
-    .socialMedia .Github a {
-        font-size: 12px;
+        display: none;
     }
 }
 @media only screen and (max-width: 768px) {
     .subHome{
-        height: 100vh;
+        height: 70vh;
         object-fit: cover;
-        /* background-size: 120%; */
+        background-size: 120%;
     }
     .subHome h1 {
         justify-content: center;
@@ -195,37 +170,42 @@
         font-size: 12px;
     }
     .subHome .socialMedia {
-        width: 42%;
-        height: 50px;
-        right: 1px;
-        bottom: 10px;
+        display: none;
     }
-    .socialMedia .Linked img {
-        width: 15px;
-        height: 15px;
+}
+@media only screen and (max-width: 620px) {
+    .subHome{
+        height: 60vh;
+        background-image: url(./assets/121-01.jpg);
+        object-fit: cover;
+        background-size: 120%;
+        top: 10vh;
+        margin-bottom: 50px;
     }
-    .socialMedia .Linked a {
-        font-size: 10px;
+    .subHome h1 {
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        
     }
-
-    .socialMedia .Insta img {
-        width: 15px;
-        height: 15px;
+    .subHome button a {
+        padding: 3px 15px;
+        font-size: 8px;
     }
-    .socialMedia .Insta a {
-        font-size: 10px;
+    .subHome .socialMedia {
+        display: none;
     }
-    .socialMedia .Github img {
-        width: 15px;
-        height: 15px;
-    }
-    .socialMedia .Github a {
-        font-size: 10px;
+}
+@media only screen and (max-width: 455px) {
+    .subHome{
+        height: 43vh;
+        margin-bottom: 50px;
     }
 }
 @media only screen and (max-width: 320px) {
     .subHome{
-        height: 50vh;
+        height: 30vh;
         background-image: url(./assets/121-01.jpg);
         object-fit: cover;
         background-size: 120%;
@@ -236,7 +216,7 @@
         text-align: center;
         color: white;
         font-size: 15px;
-        /* margin-bottom: 25px; */
+        
     }
     .subHome button a {
         padding: 3px 15px;
