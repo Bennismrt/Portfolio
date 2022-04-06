@@ -56,7 +56,7 @@
     float: right;
 }
 
-/* 
+
 .socialMedia .Linked {
     display: flex;
     flex-direction: row;
@@ -110,7 +110,7 @@
 .socialMedia .Github a {
     color: white;
     text-decoration: none;
-} */
+}
 
 @media only screen and (max-width: 1440px) {
     
@@ -125,6 +125,10 @@
         padding: 8px 35px;
         font-size: 15px;
     }
+    .subHome .socialMedia {
+        width: 32%;
+    }
+
 }
 @media only screen and (max-width: 1024px) {
     .subHome{
@@ -142,6 +146,34 @@
     }
     .subHome button a {
         padding: 7px 30px;
+        font-size: 12px;
+    }
+    .subHome .socialMedia {
+        width: 38%;
+        height: 50px;
+        right: 1px;
+        bottom: 30px;
+    }
+    .socialMedia .Linked img {
+        width: 20px;
+        height: 20px;
+    }
+    .socialMedia .Linked a {
+        font-size: 12px;
+    }
+
+    .socialMedia .Insta img {
+        width: 20px;
+        height: 20px;
+    }
+    .socialMedia .Insta a {
+        font-size: 12px;
+    }
+    .socialMedia .Github img {
+        width: 20px;
+        height: 20px;
+    }
+    .socialMedia .Github a {
         font-size: 12px;
     }
 }
@@ -162,21 +194,55 @@
         padding: 5px 25px;
         font-size: 12px;
     }
+    .subHome .socialMedia {
+        width: 42%;
+        height: 50px;
+        right: 1px;
+        bottom: 10px;
+    }
+    .socialMedia .Linked img {
+        width: 15px;
+        height: 15px;
+    }
+    .socialMedia .Linked a {
+        font-size: 10px;
+    }
+
+    .socialMedia .Insta img {
+        width: 15px;
+        height: 15px;
+    }
+    .socialMedia .Insta a {
+        font-size: 10px;
+    }
+    .socialMedia .Github img {
+        width: 15px;
+        height: 15px;
+    }
+    .socialMedia .Github a {
+        font-size: 10px;
+    }
 }
 @media only screen and (max-width: 320px) {
     .subHome{
         height: 50vh;
-        background-size: 130%;
+        background-image: url(./assets/121-01.jpg);
+        object-fit: cover;
+        background-size: 120%;
+        top: 10vh;
     }
     .subHome h1 {
         justify-content: center;
         text-align: center;
         color: white;
         font-size: 15px;
-        margin-bottom: 25px;
+        /* margin-bottom: 25px; */
     }
     .subHome button a {
         padding: 3px 15px;
         font-size: 8px;
+    }
+    .subHome .socialMedia {
+        display: none;
     }
 }

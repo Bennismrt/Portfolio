@@ -22,7 +22,7 @@ export function SubHome() {
         <div className='subHome'>
             <h1>“Let's make something<br/>out of nothing”</h1>
             <button><a href='#About'>Get Started</a></button>
-            {/* <div className='socialMedia'>
+            <div className='socialMedia'>
                 <div className='Linked' onClick={Linked1}>
                     <img src={Linked}></img>
                     <a>benni-setiady</a>
@@ -35,7 +35,7 @@ export function SubHome() {
                     <img src={Insta}></img>
                     <a>Bennysmrt</a>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
