@@ -3,7 +3,7 @@ import { SubHome } from './SubHome';
 import Navbar from './Navbar';
 function Home() {
     return (
-        <div id="Home">
+        <div id="Home" style={home}>
         <Navbar/>
         <SubHome/>
         
@@ -12,3 +12,9 @@ function Home() {
     }
 
 export default Home;
+
+const home = {
+    margin: "0",
+    padding: "0",
+    boxSizinf: "border-box"
+}

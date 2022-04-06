@@ -12,6 +12,7 @@
     cursor: pointer;
     color: orangered;
     margin: auto;
+    text-align: center;
 }
 .loadMore:hover {
     color: rgb(185, 54, 6);
@@ -23,4 +24,24 @@
     height: 20px;
     /* color: white; */
     text-align: center;
+}
+@media only screen and (max-width: 1440px) {
+    .loadMore{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .loadMore{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .loadMore{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .loadMore{
+        font-size: 12px;
+    }
 }

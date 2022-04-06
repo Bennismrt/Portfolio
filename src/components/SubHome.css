@@ -1,110 +1,182 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 .subHome {
-    background-color: rgba(0, 0, 0, 0.9);
-    height: 70vh;
+    background-image: url(./assets/121-01.jpg);
+    background-size: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.subHome h1 {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    margin-bottom: 100px;
+}
+
+.subHome button a {
+    padding: 10px 50px;
+    text-decoration: none;
+    border: none;
+    background-color: #00ADEE;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.subHome button a:hover {
+    background-color: #048ec0;
+
+}
+.subHome button  {
+    background-color: transparent;
+    border: none;
+}
+
+.subHome .socialMedia {
+    position: absolute;
+    width: 19%;
+    height: 80px;
+    display: flex;
+    right: 20px;
+    bottom: 30px;
+    flex-direction: row;
+    float: right;
+}
+
+/* 
+.socialMedia .Linked {
     display: flex;
     flex-direction: row;
-    padding-top: 10vh;
-}
-
-.titlee {
-    width: 50%;
-    color: white;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-}
-
-.titlee .title1 {
-    margin-left: 32px;
-    font-size: 38px;
-}
-.titlee .title2 {
-    margin-left: 32px;
-}
-.titlee .title3 {
-    margin-left: 32px;
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: 400;
-}
-
-.subHome .image {
-    width: 50%;
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
     align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.socialMedia .Linked img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.socialMedia .Linked a {
+    color: white;
+    text-decoration: none;
 }
 
-.subHome .image .image1 {
-    width: 450px;
-    height: 450px;
-    /* object-fit: cover; */
-    
-}
-@media screen and (max-width: 768px) {
-    .subHome {
-        max-width: 100%;
-        background-color: rgba(0, 0, 0, 0.9);
-        height: 50vh;
-        padding-top: 10vh;
-    }
-    .titlee {
-        width: 50%;
-    }
-    .titlee .title1 {
-        margin-left: 32px;
-        font-size: 28px;
-    }
-    .titlee .title2 {
-        margin-left: 32px;
-        font-size: 24px;
-    }
-    .titlee .title3 {
-        margin-left: 32px;
-        font-size: 14px;
-        margin-top: 20px;
-        font-weight: 400;
-    }
 
-    .subHome .image {
-        width: 50%;
-        display: flex;
-        justify-content: end;
-        flex-direction: column;
-        align-items: center;
-    }
-    .subHome .image .image1 {
-        width: 250px;
-        height: 250px;
-        /* object-fit: cover; */
-        
-    }
-    
-    
+.socialMedia .Insta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
-@media screen and (max-width: 520px) {
-    .titlee .title1 {
-        margin-left: 32px;
-        font-size: 22px;
-        color: orange;
+.socialMedia .Insta img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.socialMedia .Insta a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.socialMedia .Github {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.socialMedia .Github img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.socialMedia .Github a {
+    color: white;
+    text-decoration: none;
+} */
+
+@media only screen and (max-width: 1440px) {
+    
+    .subHome h1 {
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        margin-bottom: 50px;
     }
-    .titlee .title2 {
-        margin-left: 32px;
-        font-size: 18px;
+    .subHome button a {
+        padding: 8px 35px;
+        font-size: 15px;
     }
-    .titlee .title3 {
-        margin-left: 32px;
+}
+@media only screen and (max-width: 1024px) {
+    .subHome{
+        height: 100vh;
+        background-image: url(./assets/121-01.jpg);
+        object-fit: cover;
+        background-size: 120%;
+    }
+    .subHome h1 {
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .subHome button a {
+        padding: 7px 30px;
         font-size: 12px;
-        margin-top: 20px;
-        font-weight: 400;
     }
-    .subHome .image .image1 {
-        width: 250px;
-        height: 250px;
-
-        
+}
+@media only screen and (max-width: 768px) {
+    .subHome{
+        height: 100vh;
+        object-fit: cover;
+        /* background-size: 120%; */
+    }
+    .subHome h1 {
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    .subHome button a {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .subHome{
+        height: 50vh;
+        background-size: 130%;
+    }
+    .subHome h1 {
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .subHome button a {
+        padding: 3px 15px;
+        font-size: 8px;
     }
 }

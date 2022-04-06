@@ -1,65 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 .about{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .about1 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 50vh;
-    /* background-color: rgba(0, 0, 0, 0.9); */
-    padding: 52px 0;
 }
-.about1{
-    width: 50%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-.about2{
-    width: 50%;
-    font-family: 'Poppins', sans-serif;
-    justify-content: center;
+.about .about1 .aboutA{
+    width: 70%;
+    /* background-color: #8f482f; */
     display: flex;
     flex-direction: column;
-    
 }
-.about1 img{
-    width: 15rem;
-    height: 15rem;
+.about .about1 .aboutA h1{
+    font-size: 60px;
+    animation: 
+    typing 8.5s steps(160, end);
+    overflow: hidden;
+    white-space: nowrap;
 }
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
 
-.about2 p{
-    width: 85%;
+.about .about1 .aboutA p{
+    font-size: 34px;
     text-align: justify;
-    margin-bottom: 18px;
-    font-size: 12px;
+    line-height: 70px;
+    margin-bottom: 60px;
 }
-@media screen and (max-width: 768px) {
-    .about {
+.about .about1 .aboutA span{
+    font-size: 50px;
+    color: orangered;
+}
+.about .about1 .aboutB{
+    width: 30%;
+    height: 120px;
+    display: flex;
+    padding-top: 182px;
+    align-items: center;
+    justify-content: center;
+}
+.about .about1 .aboutB img{
+    width: 500px;
+    height: 500px;
+}
+
+.about .title1 {
+    color: white;
+}
+@media only screen and (max-width: 1440px) {
+    .about{
+        width: 95%;
+    }
+    .about .about1 .aboutA h1{
+        font-size: 35px;
+    }
+    .about .about1 .aboutA h1 span{
+        font-size: 35px;
+    }
+    .about .about1 .aboutA p{
+        font-size: 20px;
+        text-align: justify;
+        line-height: 50px;
+    }
+    .about .about1 .aboutA p{
+        margin-bottom: 30px;
+    }
+    .about .about1 .aboutB img{
+        width: 350px;
+        height: 350px;
+    }
+    .about .about1 .aboutB{
+        width: 35%;
+        padding-top: 184px;
+    }
+    .about .about1 .aboutA{
+        width: 65%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .about1 {
-        display: none;
-    }
-    .about2 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .title {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-    .about2 p {
-        width: 70%;
-        /* background-color: orange; */
-        line-height: 35px;
     }
 }
+@media only screen and (max-width: 1024px) {
+    .about{
+        width: 94%;
+    }
+    .about .about1 .aboutA h1{
+        font-size: 25px;
+    }
+    .about .about1 .aboutA h1 span{
+        font-size: 25px;
+    }
+    .about .about1 .aboutA p{
+        font-size: 15px;
+        text-align: justify;
+        line-height: 45px;
+    }
+    .about .about1 .aboutA p{
+        margin-bottom: 30px;
+    }
+    .about .about1 .aboutB img{
+        width: 250px;
+        height: 250px;
+    }
+    .about .about1 .aboutB{
+        width: 35%;
+        padding-top: 142px;
+    }
+    .about .about1 .aboutA{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .about{
+        width: 92%;
+        display: flex;
+        align-items: center;
+    }
+    .about .about1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* background-color: orangered; */
+    }
+    .about .about1 .aboutA{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 42px;
+    }
+    .about .about1 .aboutA h1{
+        font-size: 20px;
+    }
+    .about .about1 .aboutA h1 span{
+        font-size: 20px;
+    }
+    .about .about1 .aboutA p{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        line-height: 40px;
+    }
+    .about .about1 .aboutA p{
+        margin-bottom: 30px;
+    }
+    .about .about1 .aboutB img{
+        display: none;
+    }
+    .about .about1 .aboutB{
+        display: none;
+        background-color: black;
+    }
+    
+}
+@media only screen and (max-width: 320px) {
+    .about{
+        width: 85%;
+        display: flex;
+        align-items: center;
+    }
+    .about .about1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about .about1 .aboutA{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about .about1 .aboutA h1{
+        font-size: 14px;
+    }
+    .about .about1 .aboutA h1 span{
+        font-size: 14px;
+    }
+    .about .about1 .aboutA p{
+        font-size: 12px;
+        text-align: justify;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .about .about1 .aboutB img{
+        display: none;
+    }
+    .about .about1 .aboutB{
+        display: none;
+    }
+    
+}
+
+
+
+
+

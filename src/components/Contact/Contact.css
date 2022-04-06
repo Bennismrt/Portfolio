@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+.contact {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: aqua; */
+}
+.masterCard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.masterCard .card1 {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+.masterCard .card1 p {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+/* email section */
+.card1 .Email {
+    display: flex;
+    flex-direction: row;
+}
+.Email img {
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+}
+.Email .subEmail {
+    display: flex;
+    flex-direction: column;
+}
+.Email .subEmail h1 {
+    font-size: 38px;
+}
+
+/* Github section */
+.card1 .Github {
+    display: flex;
+    flex-direction: row;
+}
+.Github img {
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+}
+.Github .subGithub {
+    display: flex;
+    flex-direction: column;
+}
+.Github .subGithub h1 {
+    font-size: 38px;
+}
+
+/* LinkedIn section */
+.card1 .LinkedIn {
+    display: flex;
+    flex-direction: row;
+}
+.LinkedIn img {
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+}
+.LinkedIn .subLinkedIn {
+    display: flex;
+    flex-direction: column;
+}
+.LinkedIn .subLinkedIn h1 {
+    font-size: 38px;
+}
+
+
+.masterCard .card2 {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.card2 .form {
+    display: flex; 
+    width: 80%;
+    flex-direction: column;
+    /* background-color: orange; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.card2 .form input {
+    padding: 10px 10px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card2 .form label {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.card2 .form textarea {
+    margin-bottom: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    font-size: 24px;
+    padding: 10px 10px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card2 .form .btnPrimer {
+    background-color: orangered;
+    font-size: 24px;
+    color: white;
+}
+@media only screen and (max-width: 1440px) {
+    .contact {
+        width: 95%;
+        /* background-color: aqua; */
+    }
+    .masterCard .card1 {
+        width: 50%;
+        font-family: 'Poppins', sans-serif;
+        /* background-color: orangered; */
+    }
+    .masterCard .card1 p {
+        font-size: 20px;
+        margin-bottom: 50px;
+        line-height: 50px;
+    }
+    
+    /* email section */
+    .Email img {
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .Email .subEmail {
+        display: flex;
+        flex-direction: column;
+    }
+    .Email .subEmail h1 {
+        font-size: 30px;
+    }
+    .Email .subEmail p {
+        font-size: 18px;
+    }
+    
+    /* Github section */
+    .Github img {
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .Github .subGithub h1 {
+        font-size: 30px;
+    }
+    .Github .subGithub p {
+        font-size: 18px;
+    }
+    
+    /* LinkedIn section */
+    .LinkedIn img {
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .LinkedIn .subLinkedIn h1 {
+        font-size: 30px;
+    }
+    .LinkedIn .subLinkedIn p {
+        font-size: 18px;
+    }
+    
+    
+    .card2 .form input {
+        padding: 10px 10px 10px;
+        outline: none;
+        border-radius: 5px;
+        border: 1.8px solid orangered;
+        font-size: 20px;
+    }
+    
+    .card2 .form label {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .card2 .form textarea {
+        margin-bottom: 40px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1.8px solid orangered;
+        font-size: 20px;
+        padding: 10px 10px 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .card2 .form .btnPrimer {
+        background-color: orangered;
+        font-size: 24px;
+        color: white;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .contact {
+        width: 94%;
+        /* background-color: aqua; */
+    }
+    .masterCard{
+        margin-top: 15px;
+    }
+    .masterCard .card1 {
+        width: 50%;
+        font-family: 'Poppins', sans-serif;
+        /* background-color: orangered; */
+    }
+    .masterCard .card1 p {
+        font-size: 15px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    
+    /* email section */
+    .Email img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .Email .subEmail {
+        line-height: 20px;
+    }
+    .Email .subEmail h1 {
+        font-size: 20px;
+    }
+    .Email .subEmail p {
+        font-size: 15px;
+    }
+    
+    /* Github section */
+    .Github img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .Github .subGithub{
+        line-height: 20px;
+    }
+    .Github .subGithub h1 {
+        font-size: 20px;
+    }
+    .Github .subGithub p {
+        font-size: 15px;
+    }
+    
+    /* LinkedIn section */
+    .LinkedIn img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .LinkedIn .subLinkedIn {
+        line-height: 20px;
+    }
+    .LinkedIn .subLinkedIn h1 {
+        font-size: 20px;
+    }
+    .LinkedIn .subLinkedIn p {
+        font-size: 15px;
+    }
+    .card2 .form input {
+        padding: 10px 10px 10px;
+        outline: none;
+        border-radius: 5px;
+        border: 1.8px solid orangered;
+        font-size: 15px;
+    }
+    .card2 h1 {
+        font-size: 25px;
+    }
+    .card2 .form label {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    .card2 .form textarea {
+        margin-bottom: 40px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1.8px solid orangered;
+        font-size: 15px;
+        padding: 10px 10px 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .card2 .form .btnPrimer {
+        background-color: orangered;
+        font-size: 15px;
+        color: white;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .contact {
+        width: 92%;
+    }
+    .masterCard{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+    .masterCard .card1 {
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        /* background-color: orangered; */
+    }
+    .masterCard .card1 p {
+        font-size: 14px;
+        margin-bottom: 30px;
+        line-height: 45px;
+    }
+    
+    /* email section */
+    .Email img {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+    }
+    .Email .subEmail {
+        line-height: 10px;
+        padding-top: 3px;
+    }
+    .Email .subEmail h1 {
+        font-size: 16px;
+    }
+    .Email .subEmail p {
+        font-size: 14px;
+    }
+    
+    /* Github section */
+    .Github img {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+    }
+    .Github .subGithub{
+        line-height: 10px;
+    }
+    .Github .subGithub h1 {
+        font-size: 16px;
+    }
+    .Github .subGithub p {
+        font-size: 14px;
+    }
+    
+    /* LinkedIn section */
+    .LinkedIn img {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .LinkedIn .subLinkedIn {
+        line-height: 10px;
+    }
+    .LinkedIn .subLinkedIn h1 {
+        font-size: 16px;
+    }
+    .LinkedIn .subLinkedIn p {
+        font-size: 14px;
+    }
+    .masterCard .card2 {
+        width: 100%;
+    }
+    .card2 .form{
+        width: 100%;
+    }
+    .card2 .form input {
+        padding: 5px 5px 5px;
+        outline: none;
+        border-radius: 5px;
+        border: 1.5px solid orangered;
+        font-size: 14px;
+    }
+    .card2 h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .card2 .form label {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    .card2 .form textarea {
+        margin-bottom: 40px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1.5px solid orangered;
+        font-size: 14px;
+        padding: 5px 5px 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .card2 .form .btnPrimer {
+        background-color: orangered;
+        font-size: 14px;
+        color: white;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .contact {
+        width: 85%;
+    }
+    .masterCard{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+    .masterCard .card1 {
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .masterCard .card1 p {
+        font-size: 12px;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+    
+    /* email section */
+    .Email img {
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+    }
+    .Email .subEmail {
+        line-height: 10px;
+        padding-top: 3px;
+    }
+    .Email .subEmail h1 {
+        font-size: 14px;
+    }
+    .Email .subEmail p {
+        font-size: 12px;
+    }
+    
+    /* Github section */
+    .Github img {
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+    }
+    .Github .subGithub{
+        line-height: 10px;
+    }
+    .Github .subGithub h1 {
+        font-size: 14px;
+    }
+    .Github .subGithub p {
+        font-size: 12px;
+    }
+    
+    /* LinkedIn section */
+    .LinkedIn img {
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+    }
+    .LinkedIn .subLinkedIn {
+        line-height: 10px;
+    }
+    .LinkedIn .subLinkedIn h1 {
+        font-size: 14px;
+    }
+    .LinkedIn .subLinkedIn p {
+        font-size: 12px;
+    }
+    .masterCard .card2 {
+        width: 100%;
+    }
+    .card2 .form{
+        width: 100%;
+    }
+    .card2 .form input {
+        padding: 3px 3px 3px 5px;
+        outline: none;
+        border-radius: 5px;
+        border: 1.5px solid orangered;
+        font-size: 12px;
+        width: 100%;
+    }
+    .card2 h1 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .card2 .form label {
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .card2 .form textarea {
+        margin-bottom: 40px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1.5px solid orangered;
+        font-size: 12px;
+        padding: 3px 3px 3px 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .card2 .form .btnPrimer {
+        background-color: orangered;
+        font-size: 14px;
+        color: white;
+    }
+}
