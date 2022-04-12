@@ -52,19 +52,23 @@
     width: 120px;
     height: 120px;
     margin-right: 40px;
+    cursor: pointer;
 }
 .Github .subGithub {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .Github .subGithub h1 {
     font-size: 38px;
+    cursor: pointer;
 }
 
 /* LinkedIn section */
 .card1 .LinkedIn {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 .LinkedIn img {
     width: 120px;
@@ -424,7 +428,7 @@
         color: white;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
     .contact {
         width: 85%;
     }

@@ -92,7 +92,28 @@
         text-align: center;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
+    .skills {
+        width: 92%;
+        /* background-color: aqua; */
+    }
+    .skills p {
+        font-size: 14px;
+        line-height: 40px;
+        margin-top: 35px;
+    }
+    .container .cards {
+        width: 25%;
+    }
+    .cards img {
+        border-radius: 6px;
+    }
+    .cards h4 {
+        font-size: 8px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 360px) {
     .skills {
         width: 85%;
         /* background-color: aqua; */
@@ -104,13 +125,13 @@
     }
     .container .cards {
         width: 25%;
-        /* background-color: orange; */
     }
     .cards img {
         border-radius: 6px;
     }
     .cards h4 {
-        font-size: 8px;
+        font-size: 6px;
         text-align: center;
+        margin-top: 6px;
     }
 }

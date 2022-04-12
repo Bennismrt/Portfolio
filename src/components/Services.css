@@ -151,7 +151,7 @@
         font-size: 14px;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
     .services{
         width: 85%;
     }
@@ -161,14 +161,19 @@
         line-height: 30px;
     }
     .image {
-        gap: 20px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 1px;
     }
     
     .image1a {
-        width: 100%;
+        width: 80%;
         background-image: url(./assets/service2.png);
-        height: 40vh;
+        height: 30vh;
         background-size: 300px auto;
         background-repeat: no-repeat;
         flex-direction: column;
@@ -191,9 +196,78 @@
     
     }
     .image2a {
-        width: 100%;
+        width: 80%;
         background-image: url(./assets/service1.png);
-        height: 40vh;
+        height: 30vh;
+        background-size: 300px auto;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .image2a h1 {
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .image2a p {
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+}
+@media only screen and (max-width: 360px) {
+    .services{
+        width: 85%;
+    }
+    .services p{
+        margin-top: 35px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .image {
+        gap: 40px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .image1a {
+        width: 80%;
+        background-image: url(./assets/service2.png);
+        height: 30vh;
+        background-size: 300px auto;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .image1a h1 {
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .image1a p {
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    
+    }
+    .image2a {
+        width: 80%;
+        background-image: url(./assets/service1.png);
+        height: 30vh;
         background-size: 300px auto;
         background-repeat: no-repeat;
         flex-direction: column;

@@ -28,15 +28,13 @@ function Contact() {
 
         e.target.reset();
 
-        // emailjs.sendForm('service_4niia2a', 'template_bfkqirp',e.target, 'Sc8bhWrRDukv7Sv91').then (res =>{
-        //     console.log(res)
-        // }). catch(err => {
-        //     console.log(err)
-        // })
     }
-    // const ResetForm = () => { 
-    //     this.myFormRef.reset();
-    // }
+    const linkedIn = () => {
+        window.open("https://www.linkedin.com/in/benni-setiady/");
+    };
+    const github = () => {
+        window.open("https://github.com/Bennismrt");
+    };
     return (
         <div className='contact' id="Contact">
             <Title name="Contact" style={ContactTitle}/>
@@ -51,17 +49,17 @@ function Contact() {
                         </div>
                     </div>
                     <div className='Github'>
-                        <img src={Github}></img>
+                        <img src={Github} onClick={github}></img>
                         <div className='subGithub'>
-                            <h1>Github</h1>
-                            <p>github.com/Bennismrt</p>
+                            <h1 onClick={github}>Github</h1>
+                            <p onClick={github}>github.com/Bennismrt</p>
                         </div>
                     </div>
                     <div className='LinkedIn'>
-                        <img src={Linked}></img>
+                        <img src={Linked} onClick={linkedIn}></img>
                         <div className='subLinkedIn'>
-                            <h1>LinkedIn</h1>
-                            <p>linkedin.com/in/benni-setiady/</p>
+                            <h1 onClick={linkedIn}>LinkedIn</h1>
+                            <p onClick={linkedIn} >linkedin.com/in/benni-setiady/</p>
                         </div>
                     </div>
                 </div>
