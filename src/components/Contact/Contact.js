@@ -10,11 +10,8 @@ import emailjs from 'emailjs-com';
 function Contact() {
     const [Text, setText] = useState("Contact Me");
 
-
     function sendEmail(e){
         e.preventDefault();
-        
-
         emailjs.sendForm(
             "service_badam4i",
             "template_bfkqirp",
@@ -22,6 +19,7 @@ function Contact() {
             "Sc8bhWrRDukv7Sv91"
         ).then(res => {
             console.log(res)
+            setText("Your message was sent successfully")
         }).catch (err => {
             console.log(err);
         })
@@ -35,6 +33,7 @@ function Contact() {
     const github = () => {
         window.open("https://github.com/Bennismrt");
     };
+
     return (
         <div className='contact' id="Contact">
             <Title name="Contact" style={ContactTitle}/>
@@ -67,15 +66,14 @@ function Contact() {
                     <h1>{Text}</h1>
                     <form onSubmit={sendEmail} className='form'>
                         <label>Name</label>
-                        <input type='text' name='name'/>
+                        <input type='text' name='name' required/>
                         
                         <label>Email</label>
-                        <input type='email' name='user_email' required/>
+                        <input type='email' name='user_email' required />
 
                         <label>Description</label>
-                        <textarea name='message' rows='10'></textarea>
+                        <textarea name='message' rows='10' required></textarea>
                         <input type='submit' value='Submit' onClick={() => {
-                        setText("Your message was sent successfully");
                         setTimeout(() => {
                             setText("Contact Me ");
                         }, 4000);
