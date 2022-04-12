@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 .subHome {
-    background-image: url(https://ibb.co/Hh9YRJZ);
+    background-image: url('./assets/121-01.jpg');
     background-size: 100%;
     max-width: 100%;
     height: 100vh;
@@ -113,7 +113,9 @@
 }
 
 @media only screen and (max-width: 1440px) {
-    
+    .subHome {
+        height: 65vh;
+    }
     .subHome h1 {
         justify-content: center;
         text-align: center;
@@ -132,8 +134,7 @@
 }
 @media only screen and (max-width: 1024px) {
     .subHome{
-        height: 100vh;
-        background-image: url(./assets/121-01.jpg);
+        height: 50vh;
         object-fit: cover;
         background-size: 120%;
     }
@@ -154,7 +155,7 @@
 }
 @media only screen and (max-width: 768px) {
     .subHome{
-        height: 70vh;
+        height: 50vh;
         object-fit: cover;
         background-size: 120%;
     }
@@ -175,8 +176,7 @@
 }
 @media only screen and (max-width: 620px) {
     .subHome{
-        height: 60vh;
-        background-image: url(./assets/121-01.jpg);
+        height: 50vh;
         object-fit: cover;
         background-size: 120%;
         top: 10vh;
@@ -206,10 +206,10 @@
 @media only screen and (max-width: 320px) {
     .subHome{
         height: 30vh;
-        background-image: url(./assets/121-01.jpg);
         object-fit: cover;
         background-size: 120%;
         top: 10vh;
+        
     }
     .subHome h1 {
         justify-content: center;
