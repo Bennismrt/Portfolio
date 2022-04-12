@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 .about .about1 .aboutA h1{
-    font-size: 45px;
+    font-size: 25px;
     animation: 
     typing 8.5s steps(160, end);
     overflow: hidden;
@@ -35,26 +35,27 @@
 }
 
 .about .about1 .aboutA p{
-    font-size: 24px;
+    font-size: 16px;
     text-align: justify;
-    line-height: 70px;
+    line-height: 50px;
     margin-bottom: 60px;
 }
 .about .about1 .aboutA span{
-    font-size: 45px;
+    font-size: 25px;
     color: orangered;
 }
 .about .about1 .aboutB{
     width: 30%;
     height: 120px;
     display: flex;
-    padding-top: 182px;
+    padding-top: 100px;
     align-items: center;
     justify-content: center;
+    /* background-color: orangered; */
 }
 .about .about1 .aboutB img{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
 .about .title1 {
@@ -65,15 +66,15 @@
         width: 95%;
     }
     .about .about1 .aboutA h1{
-        font-size: 20px;
+        font-size: 17px;
     }
     .about .about1 .aboutA h1 span{
-        font-size: 20px;
+        font-size: 17px;
     }
     .about .about1 .aboutA p{
-        font-size: 15px;
+        font-size: 13px;
         text-align: justify;
-        line-height: 50px;
+        line-height: 45px;
     }
     .about .about1 .aboutA p{
         margin-bottom: 30px;
@@ -97,13 +98,13 @@
         width: 94%;
     }
     .about .about1 .aboutA h1{
-        font-size: 25px;
+        font-size: 16px;
     }
     .about .about1 .aboutA h1 span{
-        font-size: 20px;
+        font-size: 16px;
     }
     .about .about1 .aboutA p{
-        font-size: 14px;
+        font-size: 12px;
         text-align: justify;
         line-height: 45px;
     }
@@ -143,14 +144,14 @@
         margin-top: 42px;
     }
     .about .about1 .aboutA h1{
-        font-size: 20px;
+        font-size: 16px;
     }
     .about .about1 .aboutA h1 span{
-        font-size: 20px;
+        font-size: 16px;
     }
     .about .about1 .aboutA p{
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
         text-align: justify;
         line-height: 40px;
     }

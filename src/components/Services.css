@@ -11,30 +11,28 @@
 }
 
 .services p {
-    font-size: 24px;
+    font-size: 16px;
     text-align: justify;
-    line-height: 70px;
+    line-height: 50px;
 }
 
 .image {
     width: 100%;
-    /* background-color: orange; */
     display: flex;
     justify-content: center;
-    gap: 82px;
-    flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .image1a {
-    width: 40%;
+    width: 30%;
     background-image: url(./assets/service1.png);
-    height: 60vh;
-    background-size: 800px auto;
+    height: 30vh;
+    background-size: 600px auto;
     background-repeat: no-repeat;
     flex-direction: column;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 .image1a h1 {
     color: white;
@@ -47,10 +45,11 @@
 
 }
 .image2a {
-    width: 40%;
+    width: 30%;
     background-image: url(./assets/service2.png);
-    height: 60vh;
-    background-size: 800px auto;
+    height: 30vh;
+    margin: 0 auto;
+    background-size: 600px auto;
     background-repeat: no-repeat;
     flex-direction: column;
     display: flex;
@@ -70,21 +69,26 @@
         width: 95%;
     }
     .services p{
-        font-size: 15px;
-        line-height: 50px;
+        font-size: 13px;
+        line-height: 45px;
     }
     .image2a {
-        height: 40vh;
+        height: 30vh;
+        background-size: 400px auto;
     }
     .image2a h1 {
         color: white;
-        margin-left: 30px;
+        margin-left: 40px;
+        font-size: 17px;
+    }
+    .image1a h1 {
+        color: white;
+        margin-left: 40px;
+        font-size: 17px;
     }
     .image1a {
-        height: 40vh;
-    }
-    .image1a p {
-        font-size: 20px;
+        height: 30vh;
+        background-size: 400px auto;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -93,21 +97,31 @@
     }
     .services p{
         margin-top: 15px;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 45px;
+        margin-bottom: -30px;
     }
     .image2a {
-        height: 40vh;
+        height: 25vh;
+        background-size: 300px auto;
     }
     .image2a h1 {
         color: white;
         margin-left: 35px;
+        margin-bottom: -22px;
     }
     .image1a {
-        height: 40vh;
+        height: 25vh;
+        background-size: 300px auto;
     }
     .image1a p {
-        font-size: 20px;
+        font-size: 12px;
+    }
+    .image2a p {
+        font-size: 12px;
+    }
+    .image1a h1{
+        margin-bottom: -22px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -116,40 +130,43 @@
     }
     .services p{
         margin-top: 35px;
-        font-size: 13px;
+        font-size: 12px;
         line-height: 40px;
     }
     .image2a {
-        height: 40vh;
+        height: 30vh;
     }
     .image2a h1 {
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
-        font-size: 20px;
-        
+        font-size: 16px;
+        margin-left: 5px;
     }
     .image2a p {
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
-        font-size: 14px;
+        font-size: 12px;
+        margin-left: 5px;
     }
     .image1a {
-        height: 40vh;
+        height: 30vh;
     }
     .image1a h1 {
         color: white;
-        text-align: center;
+        text-align: left;
+        font-size: 16px;
         margin: 0;
+        margin-left: 5px;
         padding: 0;
-        font-size: 20px;
     }
     .image1a p {
-        text-align: center;
+        text-align: left;
+        font-size: 12px;
         margin: 0;
         padding: 0;
-        font-size: 14px;
+        margin-left: 5px;
     }
 }
 @media only screen and (max-width: 425px) {

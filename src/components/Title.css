@@ -5,11 +5,11 @@
     font-family: 'Poppins', sans-serif;
     color: black;
     text-align: center;
-    font-size: 60px;
+    font-size: 35px;
 }
 .title .title1::after{
     content: '';
-    width: 340px;
+    width: 240px;
     display: block;
     height: 3px;
     background-color: black;
@@ -17,31 +17,31 @@
 
 @media only screen and (max-width: 1440px) {
     .title .title1 {
-        font-size: 45px;
+        font-size: 22px;
         margin-bottom: 32px;
     }
     .title .title1::after{
-        width: 280px;
+        width: 150px;
         height: 2.5px;
     }
 }
 @media only screen and (max-width: 1024px) {
     .title .title1 {
-        font-size: 35px;
+        font-size: 18px;
         margin-bottom: 22px;
     }
     .title .title1::after{
-        width: 220px;
+        width: 140px;
         height: 2px;
     }
 }
 @media only screen and (max-width: 768px) {
     .title .title1 {
-        font-size: 28px;
+        font-size: 16px;
         margin-bottom: 12px;
     }
     .title .title1::after{
-        width: 160px;
+        width: 130px;
         height: 2px;
     }
 }

@@ -19,11 +19,11 @@
     font-family: 'Poppins', sans-serif;
 }
 .masterCard .card1 p {
-    font-size: 24px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-align: justify;
-    line-height: 70px;
+    line-height: 50px;
 }
 
 /* email section */
@@ -32,16 +32,16 @@
     flex-direction: row;
 }
 .Email img {
-    width: 120px;
-    height: 120px;
-    margin-right: 40px;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
 }
 .Email .subEmail {
     display: flex;
     flex-direction: column;
 }
 .Email .subEmail h1 {
-    font-size: 38px;
+    font-size: 20px;
 }
 
 /* Github section */
@@ -50,9 +50,9 @@
     flex-direction: row;
 }
 .Github img {
-    width: 120px;
-    height: 120px;
-    margin-right: 40px;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
     cursor: pointer;
 }
 .Github .subGithub {
@@ -61,7 +61,7 @@
     cursor: pointer;
 }
 .Github .subGithub h1 {
-    font-size: 38px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -72,16 +72,16 @@
     cursor: pointer;
 }
 .LinkedIn img {
-    width: 120px;
-    height: 120px;
-    margin-right: 40px;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
 }
 .LinkedIn .subLinkedIn {
     display: flex;
     flex-direction: column;
 }
 .LinkedIn .subLinkedIn h1 {
-    font-size: 38px;
+    font-size: 20px;
 }
 
 
@@ -94,7 +94,9 @@
     flex-direction: column;
     
 }
-
+.card2 h1 {
+    font-size: 20px;
+}
 
 .card2 .form {
     display: flex; 
@@ -110,13 +112,13 @@
     outline: none;
     border-radius: 5px;
     border: 2px solid orangered;
-    font-size: 24px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
 .card2 .form label {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .card2 .form textarea {
@@ -125,14 +127,14 @@
     outline: none;
     border-radius: 5px;
     border: 2px solid orangered;
-    font-size: 24px;
+    font-size: 16px;
     padding: 10px 10px 10px;
     font-family: 'Poppins', sans-serif;
 }
 
 .card2 .form .btnPrimer {
     background-color: orangered;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
 }
 @media only screen and (max-width: 1440px) {
@@ -146,68 +148,70 @@
         /* background-color: orangered; */
     }
     .masterCard .card1 p {
-        font-size: 15px;
+        font-size: 13px;
         margin-bottom: 50px;
-        line-height: 50px;
+        line-height: 45px;
     }
     .masterCard .card2 h1 {
-        font-size: 25px;
+        font-size: 17px;
     }
     /* email section */
     .Email img {
-        width: 90px;
-        height: 90px;
-        margin-right: 40px;
+        width: 60px;
+        height: 60px;
+        margin-right: 25px;
     }
     .Email .subEmail {
         display: flex;
         flex-direction: column;
     }
     .Email .subEmail h1 {
-        font-size: 25px;
+        font-size: 17px;
     }
     .Email .subEmail p {
-        font-size: 15px;
+        font-size: 13px;
     }
     
     /* Github section */
     .Github img {
-        width: 90px;
-        height: 90px;
-        margin-right: 40px;
+        width: 60px;
+        height: 60px;
+        margin-right: 25px;
     }
     .Github .subGithub h1 {
-        font-size: 25px;
+        font-size: 17px;
     }
     .Github .subGithub p {
-        font-size: 15px;
+        font-size: 13px;
     }
     
     /* LinkedIn section */
     .LinkedIn img {
-        width: 90px;
-        height: 90px;
-        margin-right: 40px;
+        width: 60px;
+        height: 60px;
+        margin-right: 25px;
     }
     .LinkedIn .subLinkedIn h1 {
-        font-size: 25px;
+        font-size: 17px;
     }
     .LinkedIn .subLinkedIn p {
-        font-size: 15px;
+        font-size: 13px;
     }
     
-    
+    .card2 h1 {
+        font-size: 17px;
+    }
     .card2 .form input {
         padding: 10px 10px 10px;
         outline: none;
         border-radius: 5px;
         border: 1.8px solid orangered;
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .card2 .form label {
         margin-top: 20px;
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .card2 .form textarea {
@@ -216,14 +220,14 @@
         outline: none;
         border-radius: 5px;
         border: 1.8px solid orangered;
-        font-size: 15px;
+        font-size: 13px;
         padding: 10px 10px 10px;
         font-family: 'Poppins', sans-serif;
     }
     
     .card2 .form .btnPrimer {
         background-color: orangered;
-        font-size: 18px;
+        font-size: 13px;
         color: white;
     }
 }
@@ -241,74 +245,77 @@
         /* background-color: orangered; */
     }
     .masterCard .card1 p {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 30px;
-        line-height: 40px;
+        line-height: 45px;
     }
     .masterCard .card2 h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     /* email section */
     .Email img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         margin-right: 20px;
     }
     .Email .subEmail {
-        line-height: 20px;
+        line-height: 5px;
     }
     .Email .subEmail h1 {
-        font-size: 20px;
+        font-size: 16px;
+        padding-top: 5px;
     }
     .Email .subEmail p {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     /* Github section */
     .Github img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         margin-right: 20px;
     }
     .Github .subGithub{
-        line-height: 20px;
+        line-height: 5px;
     }
     .Github .subGithub h1 {
-        font-size: 20px;
+        font-size: 16px;
+        padding-top: 5px;
     }
     .Github .subGithub p {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     /* LinkedIn section */
     .LinkedIn img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         margin-right: 20px;
     }
     .LinkedIn .subLinkedIn {
-        line-height: 20px;
+        line-height: 5px;
     }
     .LinkedIn .subLinkedIn h1 {
-        font-size: 20px;
+        font-size: 16px;
+        padding-top: 5px;
     }
     .LinkedIn .subLinkedIn p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .card2 .form input {
-        padding: 10px 10px 10px;
+        padding: 5px 5px 5px;
         outline: none;
         border-radius: 5px;
         border: 1.8px solid orangered;
-        font-size: 15px;
+        font-size: 12px;
     }
     .card2 h1 {
-        font-size: 25px;
+        font-size: 16px;
     }
     .card2 .form label {
         margin-top: 20px;
-        font-size: 15px;
+        font-size: 12px;
     }
     
     .card2 .form textarea {
@@ -317,14 +324,14 @@
         outline: none;
         border-radius: 5px;
         border: 1.8px solid orangered;
-        font-size: 15px;
-        padding: 10px 10px 10px;
+        font-size: 12px;
+        padding: 5px 5px 5px;
         font-family: 'Poppins', sans-serif;
     }
     
     .card2 .form .btnPrimer {
         background-color: orangered;
-        font-size: 15px;
+        font-size: 12px;
         color: white;
     }
 }
@@ -343,7 +350,7 @@
         /* background-color: orangered; */
     }
     .masterCard .card1 p {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 30px;
         line-height: 45px;
     }
@@ -365,7 +372,7 @@
         font-size: 16px;
     }
     .Email .subEmail p {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     /* Github section */
@@ -381,7 +388,7 @@
         font-size: 16px;
     }
     .Github .subGithub p {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     /* LinkedIn section */
@@ -397,7 +404,7 @@
         font-size: 16px;
     }
     .LinkedIn .subLinkedIn p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .masterCard .card2 {
         width: 100%;
@@ -410,7 +417,7 @@
         outline: none;
         border-radius: 5px;
         border: 1.5px solid orangered;
-        font-size: 14px;
+        font-size: 12px;
     }
     .card2 h1 {
         font-size: 20px;
@@ -418,7 +425,7 @@
     }
     .card2 .form label {
         margin-top: 20px;
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .card2 .form textarea {
@@ -427,7 +434,7 @@
         outline: none;
         border-radius: 5px;
         border: 1.5px solid orangered;
-        font-size: 14px;
+        font-size: 12px;
         padding: 5px 5px 5px;
         font-family: 'Poppins', sans-serif;
     }

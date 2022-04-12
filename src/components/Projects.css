@@ -10,9 +10,9 @@
     font-family: 'Poppins', sans-serif;
 }
 .projects p {
-    font-size: 24px;
+    font-size: 16px;
     text-align: justify;
-    line-height: 70px;
+    line-height: 50px;
 }
 
 .class {
@@ -23,42 +23,41 @@
 }
 
 .class .subProjectsA{
-    justify-content: center;
     display: flex;
     flex-direction: column;
     width: 50%;
-    /* background-color: bisque; */
     margin-top: 40px;
     align-items: center;
+    height: auto;
 }
 .subProjectsA h1 {
     text-align: center;
-    margin-bottom: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
     
 }
 .subProjectsA img {
     border-radius: 20px;
     margin-bottom: 30px;
-    width: 90%;
+    width: 40%;
 }
 .class .subProjectsB{
-    justify-content: center;
     display: flex;
     flex-direction: column;
     width: 50%;
-    /* background-color: bisque; */
     margin-top: 40px;
     align-items: center;
 }
 .subProjectsB h1 {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 20px;
     
 }
 .subProjectsB img {
     border-radius: 20px;
     margin-bottom: 30px;
-    width: 70%;
+    width: 30%;
 }
 @media only screen and (max-width: 1440px) {
     .projects{
@@ -66,15 +65,27 @@
         /* background-color: aqua; */
     }
     .projects p {
-        font-size: 15px;
-        line-height: 50px;
+        font-size: 13px;
+        line-height: 45px;
         text-align: justify;
     }
     .subProjectsA h1 {
-        font-size: 35px;
+        font-size: 17px;
+        margin-bottom: 20px;
     }
     .subProjectsB h1 {
-        font-size: 35px;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .subProjectsB img {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 30%;
+    }
+    .subProjectsA img {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 40%;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -83,23 +94,35 @@
         /* background-color: aqua; */
     }
     .projects p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 45px;
         text-align: justify;
         margin-top: 15px;
+        margin-bottom: -30px;
+    }
+    .subProjectsA {
+        margin-top: 0;
+    }
+    .class {
+        /* background-color: aqua; */
+    }
+    .subProjectsB {
+        margin-top: 0;
     }
     .subProjectsA h1 {
-        font-size: 25px;
+        font-size: 16px;
+        margin-bottom: 10px;
     }
     .subProjectsB h1 {
-        font-size: 25px;
+        font-size: 16px;
+        margin-bottom: 10px;
     }
     .subProjectsB img {
-        border-radius: 10px;
+        border-radius: 5px;
         margin-bottom: 15px;
     }
     .subProjectsA img {
-        border-radius: 10px;
+        border-radius: 5px;
         margin-bottom: 15px;
     }
 }
@@ -109,24 +132,27 @@
         /* background-color: aqua; */
     }
     .projects p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 40px;
         text-align: justify;
         margin-top: 35px;
     }
     .subProjectsA h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .subProjectsB h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .subProjectsB img {
-        border-radius: 7px;
+        border-radius: 4px;
         margin-bottom: 10px;
+        width: 45%;
+        background-color: aqua;
     }
     .subProjectsA img {
-        border-radius: 7px;
+        border-radius: 4px;
         margin-bottom: 10px;
+        width: 60%;
     }
 }
 @media only screen and (max-width: 425px) {
@@ -167,6 +193,7 @@
     }
     .class {
         flex-direction: column;
+        margin-top: 22px;
     }
     .class .subProjectsA{
         width: 100%;

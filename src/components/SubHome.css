@@ -20,7 +20,7 @@
     justify-content: center;
     text-align: center;
     color: white;
-    font-size: 90px;
+    font-size: 40px;
     margin-bottom: 100px;
 }
 
@@ -114,18 +114,18 @@
 
 @media only screen and (max-width: 1440px) {
     .subHome {
-        height: 65vh;
+        height: 100vh;
     }
     .subHome h1 {
         justify-content: center;
         text-align: center;
         color: white;
-        font-size: 50px;
+        font-size: 30px;
         margin-bottom: 50px;
     }
     .subHome button a {
-        padding: 8px 35px;
-        font-size: 15px;
+        padding: 5px 25px;
+        font-size: 13px;
     }
     .subHome .socialMedia {
         width: 32%;
@@ -134,7 +134,7 @@
 }
 @media only screen and (max-width: 1024px) {
     .subHome{
-        height: 50vh;
+        height: 100vh;
         object-fit: cover;
         background-size: 120%;
     }
