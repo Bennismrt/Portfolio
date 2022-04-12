@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 .about .about1 .aboutA h1{
-    font-size: 60px;
+    font-size: 45px;
     animation: 
     typing 8.5s steps(160, end);
     overflow: hidden;
@@ -35,13 +35,13 @@
 }
 
 .about .about1 .aboutA p{
-    font-size: 34px;
+    font-size: 24px;
     text-align: justify;
     line-height: 70px;
     margin-bottom: 60px;
 }
 .about .about1 .aboutA span{
-    font-size: 50px;
+    font-size: 45px;
     color: orangered;
 }
 .about .about1 .aboutB{
@@ -65,13 +65,13 @@
         width: 95%;
     }
     .about .about1 .aboutA h1{
-        font-size: 35px;
+        font-size: 20px;
     }
     .about .about1 .aboutA h1 span{
-        font-size: 35px;
+        font-size: 20px;
     }
     .about .about1 .aboutA p{
-        font-size: 20px;
+        font-size: 15px;
         text-align: justify;
         line-height: 50px;
     }
@@ -100,10 +100,10 @@
         font-size: 25px;
     }
     .about .about1 .aboutA h1 span{
-        font-size: 25px;
+        font-size: 20px;
     }
     .about .about1 .aboutA p{
-        font-size: 15px;
+        font-size: 14px;
         text-align: justify;
         line-height: 45px;
     }
@@ -166,7 +166,7 @@
     }
     
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
     .about{
         width: 85%;
         display: flex;

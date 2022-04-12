@@ -19,10 +19,11 @@
     font-family: 'Poppins', sans-serif;
 }
 .masterCard .card1 p {
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 100px;
     text-align: justify;
+    line-height: 70px;
 }
 
 /* email section */
@@ -145,12 +146,12 @@
         /* background-color: orangered; */
     }
     .masterCard .card1 p {
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 50px;
         line-height: 50px;
     }
     .masterCard .card2 h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     /* email section */
     .Email img {
@@ -163,10 +164,10 @@
         flex-direction: column;
     }
     .Email .subEmail h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .Email .subEmail p {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     /* Github section */
@@ -176,10 +177,10 @@
         margin-right: 40px;
     }
     .Github .subGithub h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .Github .subGithub p {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     /* LinkedIn section */
@@ -189,10 +190,10 @@
         margin-right: 40px;
     }
     .LinkedIn .subLinkedIn h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .LinkedIn .subLinkedIn p {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     
@@ -201,12 +202,12 @@
         outline: none;
         border-radius: 5px;
         border: 1.8px solid orangered;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .card2 .form label {
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .card2 .form textarea {
@@ -215,14 +216,14 @@
         outline: none;
         border-radius: 5px;
         border: 1.8px solid orangered;
-        font-size: 20px;
+        font-size: 15px;
         padding: 10px 10px 10px;
         font-family: 'Poppins', sans-serif;
     }
     
     .card2 .form .btnPrimer {
         background-color: orangered;
-        font-size: 24px;
+        font-size: 18px;
         color: white;
     }
 }
@@ -240,7 +241,7 @@
         /* background-color: orangered; */
     }
     .masterCard .card1 p {
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 30px;
         line-height: 40px;
     }
@@ -261,7 +262,7 @@
         font-size: 20px;
     }
     .Email .subEmail p {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     /* Github section */
@@ -277,7 +278,7 @@
         font-size: 20px;
     }
     .Github .subGithub p {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     /* LinkedIn section */
@@ -293,7 +294,7 @@
         font-size: 20px;
     }
     .LinkedIn .subLinkedIn p {
-        font-size: 15px;
+        font-size: 14px;
     }
     .card2 .form input {
         padding: 10px 10px 10px;

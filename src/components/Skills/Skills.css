@@ -10,8 +10,9 @@
 }
 
 .skills p {
-    font-size: 34px;
+    font-size: 24px;
     text-align: justify;
+    line-height: 70px;
 }
 
 .container {
@@ -28,6 +29,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    width: 25%;
 }
 
 .cards img {
@@ -44,7 +46,7 @@
         /* background-color: aqua; */
     }
     .skills p {
-        font-size: 20px;
+        font-size: 15px;
         line-height: 50px;
     }
     .container .cards {
@@ -60,7 +62,7 @@
         /* background-color: aqua; */
     }
     .skills p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 45px;
         margin-top: 15px;
     }

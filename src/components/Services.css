@@ -11,8 +11,9 @@
 }
 
 .services p {
-    font-size: 34px;
+    font-size: 24px;
     text-align: justify;
+    line-height: 70px;
 }
 
 .image {
@@ -69,7 +70,7 @@
         width: 95%;
     }
     .services p{
-        font-size: 20px;
+        font-size: 15px;
         line-height: 50px;
     }
     .image2a {
@@ -77,7 +78,7 @@
     }
     .image2a h1 {
         color: white;
-        margin-left: 35px;
+        margin-left: 30px;
     }
     .image1a {
         height: 40vh;
@@ -92,7 +93,7 @@
     }
     .services p{
         margin-top: 15px;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 45px;
     }
     .image2a {
@@ -115,7 +116,7 @@
     }
     .services p{
         margin-top: 35px;
-        font-size: 15px;
+        font-size: 13px;
         line-height: 40px;
     }
     .image2a {
